@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - Your Universe, Connected</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-text">Aura</span>
+                </div>
+                <nav class="nav">
+                    <a href="#auraphone" class="nav-link">AuraPhone</a>
+                    <a href="#aurawatch" class="nav-link">AuraWatch</a>
+                    <a href="#ecosystem" class="nav-link">Ecosystem</a>
+                    <a href="#specs" class="nav-link">Specs</a>
+                </nav>
+                <button class="btn btn-cta header-cta">Pre-Order Now</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="particles"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-headline">Your Universe, Connected.</h1>
+                <p class="hero-subheadline">The revolutionary AuraPhone and AuraWatch. Designed in perfect harmony to amplify your world.</p>
+                <div class="hero-devices">
+                    <div class="device auraphone-hero">
+                        <div class="device-screen"></div>
+                    </div>
+                    <div class="device aurawatch-hero">
+                        <div class="device-screen"></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary hero-cta" data-scroll-to="synergy">Explore the Ecosystem</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Synergy Section -->
+    <section class="synergy" id="synergy">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seamlessly Synced. Perfectly Paired.</h2>
+            </div>
+            <div class="synergy-grid">
+                <div class="synergy-card" data-aos="fade-up" data-delay="0">
+                    <div class="synergy-icon">
+                        <div class="icon-continuity"></div>
+                    </div>
+                    <h3 class="synergy-title">Continuity Flow</h3>
+                    <p class="synergy-text">Get notifications, calls, and alerts on your AuraWatch instantly. Respond without ever reaching for your phone.</p>
+                </div>
+                <div class="synergy-card" data-aos="fade-up" data-delay="200">
+                    <div class="synergy-icon">
+                        <div class="icon-health"></div>
+                    </div>
+                    <h3 class="synergy-title">Health Matrix</h3>
+                    <p class="synergy-text">Your AuraWatch tracks your vitals 24/7, syncing in real-time with the AuraHealth app on your phone for deep insights.</p>
+                </div>
+                <div class="synergy-card" data-aos="fade-up" data-delay="400">
+                    <div class="synergy-icon">
+                        <div class="icon-handoff"></div>
+                    </div>
+                    <h3 class="synergy-title">Instant Hand-off</h3>
+                    <p class="synergy-text">Start a task on one device and finish on another. From navigation to music, your Aura ecosystem is always one step ahead.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive 3D Model Section -->
+    <section class="models" id="models">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineered for Perfection. Explore Every Angle.</h2>
+            </div>
+            <div class="models-container">
+                <div class="model-viewer">
+                    <div class="model auraphone-model" id="phoneModel">
+                        <div class="model-device">
+                            <div class="model-screen"></div>
+                            <div class="hotspot" data-feature="camera" style="top: 20%; left: 15%;">+</div>
+                            <div class="hotspot" data-feature="display" style="top: 50%; left: 50%;">+</div>
+                        </div>
+                    </div>
+                    <div class="model aurawatch-model" id="watchModel">
+                        <div class="model-device">
+                            <div class="model-screen"></div>
+                            <div class="hotspot" data-feature="crown" style="top: 30%; right: 10%;">+</div>
+                            <div class="hotspot" data-feature="sensor" style="bottom: 20%; left: 50%;">+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="color-picker">
+                    <h4>Choose Color:</h4>
+                    <div class="color-options">
+                        <button class="color-option active" data-color="silver">Stardust Silver</button>
+                        <button class="color-option" data-color="black">Meteorite Black</button>
+                        <button class="color-option" data-color="blue">Nebula Blue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Popup -->
+        <div class="feature-popup" id="featurePopup">
+            <div class="popup-content">
+                <button class="popup-close">&times;</button>
+                <h3 class="popup-title"></h3>
+                <p class="popup-description"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Spotlights Section -->
+    <section class="spotlights" id="spotlights">
+        <div class="spotlight" data-aos="slide-right">
+            <div class="container">
+                <div class="spotlight-content">
+                    <div class="spotlight-visual">
+                        <div class="phone-display">
+                            <div class="screen-content nebula-display"></div>
+                        </div>
+                    </div>
+                    <div class="spotlight-text">
+                        <h2 class="spotlight-title">The Nebula Display. Beyond Reality.</h2>
+                        <p class="spotlight-description">Experience unprecedented color and clarity on the 6.7" 144Hz Dynamic AMOLED display. Our "CrystalClear 2.0" technology ensures perfect visibility, even in direct sunlight.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spotlight reverse" data-aos="slide-left">
+            <div class="container">
+                <div class="spotlight-content">
+                    <div class="spotlight-text">
+                        <h2 class="spotlight-title">Your Guardian. Day and Night.</h2>
+                        <p class="spotlight-description">Powered by the new Bio-Harmonic sensor, the AuraWatch tracks Blood Oxygen, ECG, and sleep patterns with clinical-grade accuracy. It's more than a watch; it's a commitment to your well-being.</p>
+                    </div>
+                    <div class="spotlight-visual">
+                        <div class="watch-display">
+                            <div class="health-metrics">
+                                <div class="metric">❤️ 72 BPM</div>
+                                <div class="metric">🫁 98% SpO2</div>
+                                <div class="metric">😴 8h 32m</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spotlight" data-aos="slide-right">
+            <div class="container">
+                <div class="spotlight-content">
+                    <div class="spotlight-visual">
+                        <div class="chip-animation">
+                            <div class="stellar-chip"></div>
+                        </div>
+                    </div>
+                    <div class="spotlight-text">
+                        <h2 class="spotlight-title">The Stellar Engine. Powering Both Worlds.</h2>
+                        <p class="spotlight-description">Our custom 3nm "Stellar" chipset powers both devices, delivering incredible performance and industry-leading power efficiency for up to 48 hours of mixed-use battery life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications Section -->
+    <section class="specs" id="specs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Dive into the Details.</h2>
+            </div>
+            <div class="specs-tabs">
+                <button class="tab-button active" data-tab="auraphone">AuraPhone</button>
+                <button class="tab-button" data-tab="aurawatch">AuraWatch</button>
+            </div>
+            <div class="specs-content">
+                <div class="tab-panel active" id="auraphone-specs">
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <h4>Display</h4>
+                            <p>6.7" Dynamic AMOLED, 144Hz, 3120x1440 resolution</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Processor</h4>
+                            <p>Aura Stellar Engine A1</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>RAM</h4>
+                            <p>12GB / 16GB LPDDR5X</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Camera</h4>
+                            <p>108MP Main, 50MP Ultrawide, 12MP Telephoto</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Battery</h4>
+                            <p>5,000 mAh with 120W HyperCharge</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>OS</h4>
+                            <p>AuraOS 5.0 (based on Android 16)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-panel" id="aurawatch-specs">
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <h4>Display</h4>
+                            <p>1.9" Sapphire Crystal Display, Always-On</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Processor</h4>
+                            <p>Aura Stellar Engine W1</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Sensors</h4>
+                            <p>Bio-Harmonic (ECG, SpO2), Gyroscope, Barometer</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Battery</h4>
+                            <p>Up to 72 hours in standard mode</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Connectivity</h4>
+                            <p>5G eSIM, Wi-Fi 6, Bluetooth 5.4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Don't Just Take Our Word For It.</h2>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-quote">"The Aura ecosystem is a game-changer. The synergy between the phone and watch is simply magical."</p>
+                        <p class="testimonial-author">— TechSphere</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-quote">"Absolutely stunning design matched with blistering performance. Aura has set a new benchmark for 2025."</p>
+                        <p class="testimonial-author">— GadgetFlow</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-quote">"Finally, a smartwatch that feels like a true companion to its phone. The health features alone are worth the price."</p>
+                        <p class="testimonial-author">— The Verge Today</p>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prevBtn">&lt;</button>
+                    <button class="carousel-btn next" id="nextBtn">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-visual">
+                    <div class="product-boxes">
+                        <div class="box phone-box"></div>
+                        <div class="box watch-box"></div>
+                    </div>
+                </div>
+                <div class="cta-form">
+                    <h2 class="cta-title">Be the First to Step into the Future.</h2>
+                    <p class="cta-offer">Pre-order today and receive the limited edition AuraBuds Pro for free.</p>
+                    <form class="preorder-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone-color">Choose AuraPhone Color</label>
+                                <select id="phone-color" class="form-control">
+                                    <option value="silver">Stardust Silver</option>
+                                    <option value="black">Meteorite Black</option>
+                                    <option value="blue">Nebula Blue</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="watch-size">Choose AuraWatch Size</label>
+                                <select id="watch-size" class="form-control">
+                                    <option value="41mm">41mm</option>
+                                    <option value="45mm">45mm</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-cta btn-shimmer">Pre-Order Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-text">Aura</span>
+                    </div>
+                    <p class="footer-mission">Connecting your world, beautifully.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#auraphone">AuraPhone</a></li>
+                        <li><a href="#aurawatch">AuraWatch</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul class="footer-links">
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#press">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Stay Connected</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">𝕏</a>
+                        <a href="#" class="social-link">▶️</a>
+                    </div>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Get Aura Updates" class="form-control">
+                        <button class="btn btn-secondary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aura Inc. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
